@@ -460,7 +460,7 @@ a:active {
 #award-box:before {
     content: "";
     width: 1px;
-    height: 90%;
+    height: 85%;
     background: #cfcdcd;
     position: absolute;
     top: 0;
@@ -503,6 +503,7 @@ a:active {
 #award-box .award:last-child:nth-child(even):before {
     right: auto;
     left: -11px;
+     top: 180px;
 }
 
 #award-box .award-icon {

@@ -460,7 +460,7 @@ a:active {
 #award-box:before {
     content: "";
     width: 1px;
-    height: 95%;
+    height: 90%;
     background: #cfcdcd;
     position: absolute;
     top: 0;

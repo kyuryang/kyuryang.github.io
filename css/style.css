@@ -229,7 +229,7 @@ a:active {
   }
 
   #experience .card h4{
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed';
     text-transform: none;
     color:#555;
   }

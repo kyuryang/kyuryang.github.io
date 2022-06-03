@@ -503,7 +503,7 @@ a:active {
 #award-box .award:last-child:nth-child(even):before {
     right: auto;
     left: -11px;
-     top: 180px;
+     top: 150px;
 }
 
 #award-box .award-icon {

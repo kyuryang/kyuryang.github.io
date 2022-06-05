@@ -94,6 +94,7 @@ a:active {
           display: flex;
           flex-direction: column;
           width: 17rem;
+          background-color: #776A77;
           height: 100vh;
       }
       #sideNav .navbar-brand {

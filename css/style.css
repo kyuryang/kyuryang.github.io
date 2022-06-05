@@ -283,8 +283,7 @@ a:active {
     -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
     opacity: 0  ;
-    background: rgba(54, 160, 245, 0.73);
-}
+    color: #776A77;
 
 #portfolio .portfolio-item .portfolio-link .caption-port:hover {
     opacity: 1;
@@ -363,7 +362,8 @@ a:active {
     width: 75px;
     height: 75px;
     cursor: pointer;
-    background-color: transparent;
+ /*  background-color: transparent; */
+    background-colorr: #776A77;
 }
 
 .portfolio-modal .close-modal:hover {

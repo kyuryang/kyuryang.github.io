@@ -362,8 +362,8 @@ a:active {
     width: 75px;
     height: 75px;
     cursor: pointer;
- /*  background-color: transparent; */
-    background-colorr: #776A77;
+  background-color: transparent; 
+ 
 }
 
 .portfolio-modal .close-modal:hover {

@@ -403,6 +403,7 @@ a:active {
     background-image: url("../img/bg-stats.jpg");
     background-size: cover;
     background-position: center center;
+    
     background-repeat: no-repeat;
 }
 
@@ -411,10 +412,11 @@ a:active {
 }
 
 .skill-cover h3{
-  font-family: "hind", sans-serif;
+  font-family: "hind"f;
   font-size: 35px;
   margin-bottom: 40px;
 }
+
 .skill-item {                       /*########################복사*/
     padding: 20px 0px;
     margin-bottom: 50px;
@@ -424,13 +426,15 @@ a:active {
     margin-right :10%;
     width: 250px;
 }
+
 .skill-item i {
     color: #2196f3;
+    
 }
 
 .skill-item h2 {
     color: #fff;
-    font-size: "hind", sans-serif;
+    font-size: "hind";
     font-size: 35px;
     font-weight: 700;
     margin-top: 15px;
@@ -439,10 +443,74 @@ a:active {
 
 .skill-item p {
     color: #fff;
-    font-family: "hind", sans-serif;
+    font-family: "hind";
     /*text-transform: uppercase;*/
     font-weight: 300;
-    margin-top: 0;
+    margin-right: 0%;
+
+    
+}
+
+/*====================================================
+                      AWARD
+======================================================*/
+ 
+#awards {
+    background: #f0f0f0;
+
+}
+
+#award-box {
+    overflow: hidden;
+    position: relative;
+    padding: 5px 0;
+    margin-right: right;
+
+}
+    /*가운데 선*/
+#award-box:before {
+    content: "";
+    width: 1px;
+    height: 85%;
+    background: #cfcdcd;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+#award-box .award {
+    width: 50%;
+    clear: both;
+    position: relative;
+}
+
+#award-box .award:before,
+#award-box .award:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+   /*====================================================
+                     마름모 위에
+======================================================*/
+#award-box .award:first-child:before,
+#award-box .award:last-child:before {
+    content: "";
+    width: 11px;
+    height: 10px;
+    background: #cfcdcd;
+    box-sizing: content-box;
+    border: 5px solid #fff;
+    box-shadow: 0 0 0 2px #cfcdcd;
+    position: absolute;
+    top: 1px;
+    right: -11px;
+    transform: rotate(45deg);
+}
+
+#award-box .award:last-child:before {
+    top: auto;
+    bottom: -54px;
 }
 
 /*====================================================

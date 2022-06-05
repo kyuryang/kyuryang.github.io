@@ -144,26 +144,26 @@ a:active {
 }
 
 .btn-white {
-    border-color: #776A77;
-    background-color: #776A77;
+     border-color: #2196f3;
+    background-color: #2196f3;
     color: #fff;
 }
 
 .btn-white:hover,
 .btn-white:focus {
     background-color: transparent;
-    color: #776A77;
+     color: #2196f3;
     cursor: pointer;
 }
 
 .btn-green {
-    border-color: #776A77;
-    color: #776A77;
+     border-color: #2196f3;
+    color: #2196f3;
 }
 
 .btn-green:hover,
 .btn-green:focus {
-    background-color: #776A77;
+      background-color: #2196f3;
     color: #fff;
     cursor: pointer;
 }
@@ -205,7 +205,7 @@ a:active {
   }
 
   .bg-primary {
-      background-color: #776A77 !important;
+       background-color: #2196f3 !important;
   }
 
   .text-primary {

@@ -25,7 +25,7 @@ h6 {
     font-family: 'Saira Extra Condensed';
     font-weight: 700;
     text-transform: uppercase;
-   color: #343a40;
+    color: #776A77;
 }
 
 h1 {
@@ -83,7 +83,6 @@ a:active {
   #sideNav .navbar-nav .nav-item .nav-link {
       font-weight: 600;
       text-transform: uppercase;
-       background-color: #776A77;
   }
 
   @media (min-width: 992px) {
@@ -96,18 +95,16 @@ a:active {
           flex-direction: column;
           width: 17rem;
           height: 100vh;
-            background-color: #776A77;
       }
       #sideNav .navbar-brand {
           display: flex;
           margin: auto auto 0;
           padding: 0.5rem;
-            background-color: #776A77;
       }
       #sideNav .navbar-brand .img-profile {
           max-width: 10rem;
           max-height: 10rem;
-          border: 0.5rem solid #ffffff;
+          border: 0.5rem solid rgba(255, 255, 255, 0.2);
       }
       #sideNav .navbar-collapse {
           display: flex;
@@ -144,7 +141,7 @@ a:active {
 }
 
 .btn-white {
-     border-color: #2196f3;
+    border-color: #2196f3;
     background-color: #2196f3;
     color: #fff;
 }
@@ -152,18 +149,18 @@ a:active {
 .btn-white:hover,
 .btn-white:focus {
     background-color: transparent;
-     color: #2196f3;
+    color: #2196f3;
     cursor: pointer;
 }
 
 .btn-green {
-     border-color: #2196f3;
+    border-color: #2196f3;
     color: #2196f3;
 }
 
 .btn-green:hover,
 .btn-green:focus {
-      background-color: #2196f3;
+    background-color: #2196f3;
     color: #fff;
     cursor: pointer;
 }
@@ -174,7 +171,7 @@ a:active {
   .heading-border {
       width: 60px;
       height: 10px;
-      background-color: #776A77;
+      background-color: #2196f3;
       margin: 0 auto 20px auto;
   }
 
@@ -205,11 +202,11 @@ a:active {
   }
 
   .bg-primary {
-       background-color: #2196f3 !important;
+      background-color: #2196f3 !important;
   }
 
   .text-primary {
-      color: #776A77 !important;
+      color: #2196f3 !important;
   }
 
 /*==================================================
@@ -283,7 +280,8 @@ a:active {
     -moz-transition: all ease 0.5s;
     transition: all ease 0.5s;
     opacity: 0  ;
-    color: #776A77;
+    background: rgba(54, 160, 245, 0.73);
+}
 
 #portfolio .portfolio-item .portfolio-link .caption-port:hover {
     opacity: 1;
@@ -362,8 +360,7 @@ a:active {
     width: 75px;
     height: 75px;
     cursor: pointer;
-  background-color: transparent; 
- 
+    background-color: transparent;
 }
 
 .portfolio-modal .close-modal:hover {
@@ -414,6 +411,7 @@ a:active {
     background-image: url("../img/bg-stats.jpg");
     background-size: cover;
     background-position: center center;
+    
     background-repeat: no-repeat;
 }
 
@@ -422,7 +420,7 @@ a:active {
 }
 
 .skill-cover h3{
-  font-family: "hind";
+  font-family: "hind"f;
   font-size: 35px;
   margin-bottom: 40px;
 }
@@ -438,7 +436,7 @@ a:active {
 }
 
 .skill-item i {
-    color: #776A77;
+    color: #2196f3;
     
 }
 
@@ -466,7 +464,7 @@ a:active {
 ======================================================*/
  
 #awards {
-    background: #000000;
+    background: #f0f0f0;
 
 }
 
@@ -790,7 +788,7 @@ a:active {
 }
 
 .contact-box-desc h3 i{
-  color: #776A77;
+  color: #2196f3;
 }
 
 .social-icon-f li{
@@ -801,7 +799,7 @@ a:active {
   height: 35px;
   width:35px;
   line-height: 35px;
-  border:2px solid #776A77;
+  border:2px solid #2196f3;
   text-align: center;
   margin-right: 10px;
   border-radius: 50%;

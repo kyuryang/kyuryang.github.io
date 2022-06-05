@@ -144,26 +144,26 @@ a:active {
 }
 
 .btn-white {
-    border-color: #2196f3;
-    background-color: #2196f3;
+    border-color: #776A77;
+    background-color: #776A77;
     color: #fff;
 }
 
 .btn-white:hover,
 .btn-white:focus {
     background-color: transparent;
-    color: #2196f3;
+    color: #776A77;
     cursor: pointer;
 }
 
 .btn-green {
-    border-color: #2196f3;
-    color: #2196f3;
+    border-color: #776A77;
+    color: #776A77;
 }
 
 .btn-green:hover,
 .btn-green:focus {
-    background-color: #2196f3;
+    background-color: #776A77;
     color: #fff;
     cursor: pointer;
 }
@@ -205,11 +205,11 @@ a:active {
   }
 
   .bg-primary {
-      background-color: #2196f3 !important;
+      background-color: #776A77 !important;
   }
 
   .text-primary {
-      color: #2196f3 !important;
+      color: #776A77 !important;
   }
 
 /*==================================================
@@ -791,7 +791,7 @@ a:active {
 }
 
 .contact-box-desc h3 i{
-  color: #2196f3;
+  color: #776A77;
 }
 
 .social-icon-f li{
@@ -802,7 +802,7 @@ a:active {
   height: 35px;
   width:35px;
   line-height: 35px;
-  border:2px solid #2196f3;
+  border:2px solid #776A77;
   text-align: center;
   margin-right: 10px;
   border-radius: 50%;

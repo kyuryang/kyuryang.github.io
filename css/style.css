@@ -83,6 +83,7 @@ a:active {
   #sideNav .navbar-nav .nav-item .nav-link {
       font-weight: 600;
       text-transform: uppercase;
+       background-color: #776A77;
   }
 
   @media (min-width: 992px) {
@@ -95,16 +96,18 @@ a:active {
           flex-direction: column;
           width: 17rem;
           height: 100vh;
+            background-color: #776A77;
       }
       #sideNav .navbar-brand {
           display: flex;
           margin: auto auto 0;
           padding: 0.5rem;
+            background-color: #776A77;
       }
       #sideNav .navbar-brand .img-profile {
           max-width: 10rem;
           max-height: 10rem;
-          border: 0.5rem solid rgba(255, 255, 255, 0.2);
+          border: 0.5rem solid #ffffff;
       }
       #sideNav .navbar-collapse {
           display: flex;
@@ -171,7 +174,7 @@ a:active {
   .heading-border {
       width: 60px;
       height: 10px;
-      background-color: #2196f3;
+      background-color: #776A77;
       margin: 0 auto 20px auto;
   }
 

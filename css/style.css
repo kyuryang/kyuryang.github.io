@@ -4,7 +4,7 @@
 body {
     font-family: 'Open Sans';
     padding-top: 54px;
-    color: #868e96;
+    color: #776A77;
 }
 
 @media (min-width: 992px) {
@@ -13,7 +13,9 @@ body {
         padding-left: 17rem;
     }
 }
-
+.yellow-color {
+    color:yellow;
+    }
 h1,
 h2,
 h3,
@@ -23,7 +25,7 @@ h6 {
     font-family: 'Saira Extra Condensed';
     font-weight: 700;
     text-transform: uppercase;
-    color: #343a40;
+    color: #776A77;
 }
 
 h1 {
@@ -36,13 +38,13 @@ h2 {
 }
 
 a {
-    color: #2196f3;
+    color: #776A77;
 }
 
 a:hover,
 a:focus,
 a:active {
-    color: #0f72c1;
+    color: #776A77;
 }
 
 .subheading {
@@ -56,11 +58,11 @@ a:active {
                   SOCIAL-ICON
 ====================================================*/
   .list-social-icons a {
-      color: #495057;
+      color: #776A77;
   }
 
   .list-social-icons a:hover {
-      color: #2196f3;
+      color: #776A773;
   }
 
   .list-social-icons a .fa-lg {
@@ -72,7 +74,7 @@ a:active {
   }
 
   .list-icons .list-inline-item i:hover {
-      color: #2196f3;
+      color: #776A77;
   }
 
 /*==================================================

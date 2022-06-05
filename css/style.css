@@ -414,7 +414,6 @@ a:active {
     background-image: url("../img/bg-stats.jpg");
     background-size: cover;
     background-position: center center;
-    
     background-repeat: no-repeat;
 }
 
@@ -423,7 +422,7 @@ a:active {
 }
 
 .skill-cover h3{
-  font-family: "hind"f;
+  font-family: "hind";
   font-size: 35px;
   margin-bottom: 40px;
 }
@@ -439,7 +438,7 @@ a:active {
 }
 
 .skill-item i {
-    color: #776A77;
+    color: #2196f3;
     
 }
 

@@ -611,7 +611,7 @@ a:active {
 }
 
 #award-box .award:hover .award-icon:before {
-    background: #39b3ff;
+     background-color: #776A77
 }
 
 #award-box .award-content {
@@ -644,8 +644,8 @@ a:active {
 }
 
 #award-box .award:hover .award-content:before {
-    background: #39b3ff;
-    border-color: #39b3ff;
+  background: #776A77
+    border-color: #080000;
 }
 
 #award-box .award-content:after {
